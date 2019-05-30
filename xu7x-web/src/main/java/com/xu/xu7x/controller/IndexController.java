@@ -1,7 +1,6 @@
 package com.xu.xu7x.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.connector.Request;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -9,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 /**
+ * 首页
  * @author xuhongda on 2018/12/21
  * com.xu.xu7x.controller
  * xu7x

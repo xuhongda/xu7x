@@ -11,6 +11,9 @@ spring:
   mvc:
     favicon:
       enabled: false
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
   #\u8FC7\u6EE4\u6389\u8FD4\u56DE\u7ED3\u679C null \u503C
   jackson:
     default-property-inclusion: non_null
@@ -34,6 +37,9 @@ spring:
   mvc:
     favicon:
       enabled: false
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
   #\u8FC7\u6EE4\u6389\u8FD4\u56DE\u7ED3\u679C null \u503C
   jackson:
     default-property-inclusion: non_null

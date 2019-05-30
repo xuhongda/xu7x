@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
+ * 站点更新历史
  * @author xuhongda on 2019/5/30
  * com.xu.xu7x.controller
  * xu7x
