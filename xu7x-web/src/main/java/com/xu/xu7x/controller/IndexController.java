@@ -1,10 +1,16 @@
 package com.xu.xu7x.controller;
 
+import com.xu.xu7x.service.ViewServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import pojo.Xu7xIndex;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 
 /**
@@ -17,13 +23,21 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class IndexController {
 
-
+    @Autowired
+    private ViewServiceImpl viewService;
 
     @GetMapping("/")
     public String index(HttpServletRequest request){
         String remoteHost = getRemoteHost(request);
         log.info("remoteHost = {}",remoteHost);
         return "index";
+    }
+
+    @ResponseBody
+    @GetMapping("/indexs")
+    public List<Xu7xIndex> indexs(){
+        List<Xu7xIndex> indexs = viewService.getIndexs();
+        return indexs;
     }
 
     /**

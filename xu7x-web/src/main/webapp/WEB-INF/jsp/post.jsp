@@ -12,7 +12,7 @@
 </head>
 <script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
 <body>
-<input type="file" name="fileUpload" id="post"/>
+<input type="file" name="fileUpload" id="post" accept="text/plain"/>
 <input type="submit"  id="up" value="上传"/>
 </body>
 <script>
@@ -44,6 +44,7 @@
             success:function () {
                 console.log("success");
                 alert("上传成功");
+                window.location = "/"
             },
             error:function(){
                 console.log("error");
