@@ -12,8 +12,8 @@ spring:
     default-property-inclusion: non_null
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url:jdbc:mysql://129.204.79.247:3306/mybatis_springboot?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: rootss
+    url: jdbc:mysql://129.204.79.247:3306/mybatis_springboot?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
     password: 7777
 mybatis:
   config-location: classpath:mybatis/config/mybatis-config.xml

@@ -42,10 +42,11 @@
             processData:false,
             data:form,
             success:function () {
-                console.log("success")
+                console.log("success");
+                alert("上传成功");
             },
             error:function(){
-                console.log("error")
+                console.log("error");
             }
         })
     };
