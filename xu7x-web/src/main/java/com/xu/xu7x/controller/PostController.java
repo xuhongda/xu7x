@@ -1,35 +1,64 @@
 package com.xu.xu7x.controller;
 
+import com.xu.xu7x.service.PostServiceImpl;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import pojo.Post;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
+import pojo.User;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * 文本编辑器
+ *
  * @author xuhongda on 2019/5/30
  * com.xu.xu7x.controller
  * xu7x
  */
+@Slf4j
 @Controller
 public class PostController {
 
     private SimpleDateFormat format = new SimpleDateFormat("yyyyy-mm-dd  HH:mm:ss");
 
-    @GetMapping("writer")
-    public String editor(){
-        return "writer";
+
+    private final PostServiceImpl postService;
+
+    public PostController(PostServiceImpl postService) {
+        this.postService = postService;
+    }
+
+    @GetMapping("accu")
+    public String editor() {
+        return "accu";
+    }
+
+
+    @PostMapping("user/acc")
+    public String acc(User user, HttpServletResponse response) throws IOException {
+        final String userName = "xuhongda";
+        if (userName.equals(user.getUserName())) {
+            return "post";
+        } else {
+            return "认证失败";
+        }
     }
 
     @ResponseBody
-    @GetMapping("post")
-    public HttpStatus editor(Post post) throws ParseException {
-        post.setDate(format.parse(format.format(new Date())));
-        post.setAuthor("xuhongda");
+    @PostMapping("post")
+    public HttpStatus editor(MultipartFile[] files, MultipartHttpServletRequest request) throws ParseException, IOException, ServletException {
+        String user = request.getParameter("user");
+        log.info("user = {}", user);
+        postService.getFileToPost(files);
         return HttpStatus.OK;
     }
 }

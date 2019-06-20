@@ -28,9 +28,9 @@ public class Post {
      */
     private Date date;
     /**
-     *  历史修改时间
+     *  最后修改时间
      */
-    private List<Date> modifyDates;
+    private List<Date> lastModifyDates;
     /**
      * 文章标题
      */

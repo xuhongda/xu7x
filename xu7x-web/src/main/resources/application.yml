@@ -8,22 +8,16 @@ server:
   port: 80
 spring:
   profiles: linux
-  mvc:
-    favicon:
-      enabled: false
-    static-path-pattern: /static/**
-  resources:
-    static-locations: classpath:/static/
-  #\u8FC7\u6EE4\u6389\u8FD4\u56DE\u7ED3\u679C null \u503C
   jackson:
     default-property-inclusion: non_null
-  #thymeleaf start
-  thymeleaf:
-    mode: HTML
-    encoding: UTF-8
-    prefix: classpath:/templates/views/
-    suffix: .html
-    cache: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:jdbc:mysql://129.204.79.247:3306/mybatis_springboot?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: rootss
+    password: 7777
+mybatis:
+  config-location: classpath:mybatis/config/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
 logging:
   file: /var/log/xu7x.log
   #path: /var/log
@@ -44,12 +38,12 @@ spring:
   jackson:
     default-property-inclusion: non_null
   #thymeleaf start
-  thymeleaf:
-    mode: HTML
-    encoding: UTF-8
-    prefix: classpath:/templates/views/
-    suffix: .html
-    cache: false
+  #thymeleaf:
+  #  mode: HTML
+  #  encoding: UTF-8
+  #  prefix: classpath:/templates/views/
+  #  suffix: .html
+  #  cache: false
 logging:
   file: c:\log\xu7x.log
   #path: D:\code\git\xu7x\
