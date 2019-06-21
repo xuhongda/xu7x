@@ -7,7 +7,7 @@
     </appender>
 
 
-    <appender name="info"
+    <appender name="file-info"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logs/produce.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
@@ -17,13 +17,41 @@
             <maxHistory>60</maxHistory>
             <totalSizeCap>20GB</totalSizeCap>
         </rollingPolicy>
+        <!--级别过滤器-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
 
-    <logger name="com.xu" level="info"/>
+
+    <appender name="file-error"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/error.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+            <!-- each file should be at most 100MB, keep 60 days worth of history, but at most 20GB -->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="com.xu" level="INFO"/>
 
     <!--sql 日志-->
     <logger name="com.xu.xu7x.mapper" level="DEBUG"/>
@@ -34,10 +62,11 @@
         <appender-ref ref="STDOUT"/>
     </root>
 
-    <root level="info">
+    <root level="INFO">
         <!-- appender referenced after it is defined -->
         <appender-ref ref="STDOUT"/>
-        <appender-ref ref="info"/>
+        <appender-ref ref="file-info"/>
+        <appender-ref ref="file-error"/>
     </root>
 
 </configuration>
