@@ -34,11 +34,7 @@ public class PostServiceImpl implements PostService {
     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
 
-    private ObjectMapper objectMapper = new ObjectMapper();
 
-
-    @Autowired
-    private Xu7xContentMapper contentMapper;
 
     @Autowired
     private ParseUtil parseUtil;
@@ -48,7 +44,7 @@ public class PostServiceImpl implements PostService {
         MultipartFile f = files[0];
         String originalFilename = f.getOriginalFilename();
         String format = this.format.format(new Date());
-        //获取绝对滤镜
+        //获取绝对路径
         String realPath = request.getSession().getServletContext().getRealPath("/");
         File file = new File(realPath + format + "-" + originalFilename);
 
@@ -65,11 +61,7 @@ public class PostServiceImpl implements PostService {
             stringBuffer.append(text);
         }
         log.info("stringBuffer = {}", stringBuffer);
-        List<Xu7xContent> xu7xContents = parseUtil.pase(stringBuffer);
-        String s = objectMapper.writeValueAsString(xu7xContents);
-        objectMapper.writeValue(new File(format + "-" + originalFilename+".json"),xu7xContents);
-        log.info("s = {}",s);
-        contentMapper.insertList(xu7xContents);
-        return true;
+
+        return parseUtil.pase(stringBuffer,f.getOriginalFilename());
     }
 }

@@ -33,4 +33,17 @@ public interface Xu7xContentMapper {
      * @param xu7xContents
      */
     void insertList(@Param("list") List<Xu7xContent> xu7xContents);
+
+    /**
+     * 批量更新
+     * @param xu7xContents
+     * @param contentIds
+     */
+    void updateListByIndexId(@Param("xu7xContents") List<Xu7xContent> xu7xContents, @Param("contentIds") List<Integer> contentIds);
+
+    /**
+     * 批量删除
+     * @param contentIds
+     */
+    void deleteByIdList(@Param("contentIds") List<Integer> contentIds);
 }

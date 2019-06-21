@@ -194,4 +194,40 @@
 
     </insert>
 
+
+    <!--    v void updateListByIndexId(@Param("xu7xContents") List<Xu7xContent> xu7xContents, @Param("contentIds") List<Integer> contentIds);
+-->
+    <update id="updateListByIndexId" >
+
+        update xu7x_content
+        <trim prefix="set" suffixOverrides=",">
+            <trim prefix="content =case " suffix="end,">
+                <foreach collection="xu7xContents" item="item" index="index">
+                    <if test="item.content !=null ">
+                        when index_id=#{item.indexId} then #{item.content,jdbcType=VARCHAR}
+                    </if>
+                </foreach>
+            </trim>
+        </trim>
+        where id in
+
+       <foreach collection="contentIds" item="id" separator="," open="(" close=")">
+           #{id}
+       </foreach>
+    </update>
+
+
+    <!--    void deleteByIdList(@Param("contentIds") List<Integer> contentIds);
+-->
+    <delete id="deleteByIdList" parameterType="java.util.List">
+        delete from xu7x_content
+
+        where id in
+
+        <foreach collection="contentIds" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+
+    </delete>
+
 </mapper>
