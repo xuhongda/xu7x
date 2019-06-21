@@ -45,7 +45,6 @@ public class IndexController {
     @GetMapping("/content")
     public String content(Integer id,HttpServletRequest request){
         request.setAttribute("id",id);
-        int i = 1/0;
         return "content";
     }
 
