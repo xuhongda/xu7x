@@ -5,7 +5,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>xu7x-model</module>
-        <module>xu7x-core</module>
         <module>xu7x-dao</module>
         <module>xu7x-web</module>
     </modules>

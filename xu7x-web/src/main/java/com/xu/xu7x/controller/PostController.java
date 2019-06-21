@@ -70,4 +70,11 @@ public class PostController {
         postService.getFileToPost(files,request);
         return HttpStatus.OK;
     }
+
+
+    @ResponseBody
+    @GetMapping("xx")
+    public String xx()  {
+        return "中文乱码";
+    }
 }
