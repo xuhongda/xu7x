@@ -20,16 +20,18 @@ import java.util.List;
 @Service
 public class ViewServiceImpl implements ViewService {
 
-    @Autowired
-    private Xu7xIndexMapper indexMapper;
+    private final Xu7xIndexMapper indexMapper;
 
-    @Autowired
-    private Xu7xContentMapper contentMapper;
+    private final Xu7xContentMapper contentMapper;
+
+    public ViewServiceImpl(Xu7xIndexMapper indexMapper, Xu7xContentMapper contentMapper) {
+        this.indexMapper = indexMapper;
+        this.contentMapper = contentMapper;
+    }
 
     @Override
     public List<Xu7xIndex> getIndexs() {
-        List<Xu7xIndex> xu7xIndices = indexMapper.selectByExample(null);
-        return xu7xIndices;
+        return indexMapper.selectByExample(null);
     }
 
     @Override
@@ -37,6 +39,7 @@ public class ViewServiceImpl implements ViewService {
         Xu7xContentExample contentExample = new Xu7xContentExample();
         contentExample.createCriteria().andIndexIdEqualTo(id);
         List<Xu7xContent> xu7xContents = contentMapper.selectByExample(contentExample);
+        log.debug("contents  =  {}",xu7xContents);
         return xu7xContents;
     }
 }

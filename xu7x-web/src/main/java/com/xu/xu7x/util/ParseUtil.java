@@ -1,6 +1,5 @@
 package com.xu.xu7x.util;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xu.xu7x.mapper.Xu7xContentMapper;
 import com.xu.xu7x.mapper.Xu7xIndexMapper;
@@ -31,13 +30,16 @@ public class ParseUtil {
 
     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
-    @Autowired
-    private Xu7xIndexMapper indexMapper;
+    private final Xu7xIndexMapper indexMapper;
 
-    @Autowired
-    private Xu7xContentMapper contentMapper;
+    private final Xu7xContentMapper contentMapper;
 
     private ObjectMapper objectMapper = new ObjectMapper();
+
+    public ParseUtil(Xu7xIndexMapper indexMapper, Xu7xContentMapper contentMapper) {
+        this.indexMapper = indexMapper;
+        this.contentMapper = contentMapper;
+    }
 
 
     public  boolean pase(StringBuffer stringBuffer,String originalFilename) throws IOException {

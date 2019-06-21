@@ -1,26 +1,16 @@
 package com.xu.xu7x.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xu.xu7x.mapper.Xu7xContentMapper;
+
 import com.xu.xu7x.util.ParseUtil;
-import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.support.GenericApplicationContext;
-import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import pojo.Xu7xContent;
-
-import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
-import java.net.URI;
 import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 /**
  * @author xuhongda on 2019/6/20
@@ -31,13 +21,13 @@ import java.util.List;
 @Service
 public class PostServiceImpl implements PostService {
 
-    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+    private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
+    private final ParseUtil parseUtil;
 
-
-
-    @Autowired
-    private ParseUtil parseUtil;
+    public PostServiceImpl(ParseUtil parseUtil) {
+        this.parseUtil = parseUtil;
+    }
 
     @Override
     public boolean getFileToPost(MultipartFile[] files, HttpServletRequest request) throws IOException {
@@ -47,21 +37,17 @@ public class PostServiceImpl implements PostService {
         //获取绝对路径
         String realPath = request.getSession().getServletContext().getRealPath("/");
         File file = new File(realPath + format + "-" + originalFilename);
-
         InputStream inputStream = f.getInputStream();
         f.transferTo(file);
         InputStreamReader streamReader = new InputStreamReader(inputStream, Charset.forName("utf-8"));
-
         BufferedReader bufferedReader = new BufferedReader(streamReader);
-
         String text;
         StringBuffer stringBuffer = new StringBuffer();
         while ((text = bufferedReader.readLine()) != null) {
-            log.info("text = {}", text);
+            log.debug("text = {}", text);
             stringBuffer.append(text);
         }
-        log.info("stringBuffer = {}", stringBuffer);
-
+        log.debug("stringBuffer = {}", stringBuffer);
         return parseUtil.pase(stringBuffer,f.getOriginalFilename());
     }
 }
