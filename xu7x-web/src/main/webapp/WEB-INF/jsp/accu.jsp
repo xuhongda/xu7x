@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>登录</title>
 </head>
-<script type="text/javascript" src="/static/js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="/static/jquery-3.2.1.js"></script>
 <body>
 <h2>Demo注册页</h2>
 

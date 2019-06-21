@@ -47,12 +47,15 @@ public class PostController {
      * @param user 用户
      */
     @PostMapping("user/acc")
-    public String acc(User user){
+    public String acc(User user,HttpServletResponse response) throws IOException {
         final String userName = "xuhongda";
         if (userName.equals(user.getUserName())) {
             return "post";
         } else {
-            return "认证失败";
+            response.setCharacterEncoding("utf-8");
+            response.setContentType("text/html;charset=utf-8");
+            response.getWriter().write("认证失败:<a href= '/accu'>重新认证</a>");
+            return null;
         }
     }
 
