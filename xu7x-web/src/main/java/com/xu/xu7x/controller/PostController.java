@@ -42,9 +42,12 @@ public class PostController {
         return "accu";
     }
 
-
+    /**
+     * 发布认证用户
+     * @param user 用户
+     */
     @PostMapping("user/acc")
-    public String acc(User user, HttpServletResponse response) throws IOException {
+    public String acc(User user){
         final String userName = "xuhongda";
         if (userName.equals(user.getUserName())) {
             return "post";
@@ -53,12 +56,15 @@ public class PostController {
         }
     }
 
+    /**
+     * 发布
+     */
     @ResponseBody
     @PostMapping("post")
     public HttpStatus editor(MultipartFile[] files, MultipartHttpServletRequest request) throws ParseException, IOException, ServletException {
         String user = request.getParameter("user");
         log.info("user = {}", user);
-        postService.getFileToPost(files);
+        postService.getFileToPost(files,request);
         return HttpStatus.OK;
     }
 }

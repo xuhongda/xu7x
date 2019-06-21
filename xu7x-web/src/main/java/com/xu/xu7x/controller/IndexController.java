@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import pojo.Xu7xContent;
 import pojo.Xu7xIndex;
 
 import javax.servlet.http.HttpServletRequest;
@@ -38,6 +39,20 @@ public class IndexController {
     public List<Xu7xIndex> indexs(){
         List<Xu7xIndex> indexs = viewService.getIndexs();
         return indexs;
+    }
+
+
+    @GetMapping("/content")
+    public String content(Integer id,HttpServletRequest request){
+        request.setAttribute("id",id);
+        return "content";
+    }
+
+    @ResponseBody
+    @GetMapping("/cc")
+    public List<Xu7xContent> content(Integer id){
+        List<Xu7xContent> contents = viewService.getContent(id);
+        return contents;
     }
 
     /**

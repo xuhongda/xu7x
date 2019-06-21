@@ -72,8 +72,8 @@
         getContent(indexId);
     });
 
-    function getContent() {
-
+    function getContent(id) {
+        window.location.href = "content"+"?id="+id;
     }
 
     //js 时间转换 函数

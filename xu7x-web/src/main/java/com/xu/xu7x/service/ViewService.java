@@ -16,6 +16,13 @@ public interface ViewService {
      * @return
      */
     List<Xu7xIndex> getIndexs();
+
+    /**
+     * 获取文章段落
+     * @param id
+     * @return
+     */
+    List<Xu7xContent> getContent(Integer id);
 }
 
 
