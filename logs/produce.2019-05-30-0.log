@@ -1,0 +1,178 @@
+2019-05-30 10:55:45.675 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 14328 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 10:55:45.677 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 10:55:46.659 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.172 seconds (JVM running for 264.219)
+2019-05-30 10:56:00.544 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@22b9aab7
+2019-05-30 10:58:11.196 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@3ee2c3ba
+2019-05-30 10:58:16.576 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 14328 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 10:58:16.577 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 10:58:17.490 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.035 seconds (JVM running for 415.049)
+2019-05-30 10:58:27.406 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - host = /
+2019-05-30 10:59:18.751 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 14328 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 10:59:18.751 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 10:59:19.649 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 0.964 seconds (JVM running for 477.209)
+2019-05-30 10:59:32.779 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - host = null
+2019-05-30 11:00:12.476 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 14328 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:00:12.476 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:00:13.718 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.294 seconds (JVM running for 531.277)
+2019-05-30 11:01:00.297 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12552 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:01:00.302 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:01:03.838 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.702 seconds (JVM running for 6.691)
+2019-05-30 11:01:17.664 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@ce9b59
+2019-05-30 11:02:46.999 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@449aa32f
+2019-05-30 11:07:14.606 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@2f54bded
+2019-05-30 11:08:16.537 [http-nio-80-exec-8] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@50de37fa
+2019-05-30 11:08:32.319 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@51dfc2a0
+2019-05-30 11:10:19.387 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.tomcat.util.http.ValuesEnumerator@7a1ff94e
+2019-05-30 11:10:22.883 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12552 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:10:22.883 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:10:23.798 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 0.965 seconds (JVM running for 566.652)
+2019-05-30 11:11:05.454 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12552 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:11:05.454 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:11:06.473 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.076 seconds (JVM running for 609.327)
+2019-05-30 11:11:47.954 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12552 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:11:47.954 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:11:48.866 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 0.979 seconds (JVM running for 651.721)
+2019-05-30 11:12:13.071 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - host = org.apache.catalina.connector.RequestFacade@4eef010d
+2019-05-30 11:14:00.201 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12552 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:14:00.201 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:14:01.283 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.133 seconds (JVM running for 784.137)
+2019-05-30 11:15:41.431 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12912 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:15:41.435 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:15:45.455 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.502 seconds (JVM running for 6.428)
+2019-05-30 11:15:59.629 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - host = 127.0.0.1
+2019-05-30 11:18:13.838 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12912 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:18:13.838 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:18:14.803 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.02 seconds (JVM running for 155.778)
+2019-05-30 11:18:32.583 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12912 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:18:32.584 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:18:33.635 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.102 seconds (JVM running for 174.608)
+2019-05-30 11:45:36.999 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12912 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:45:37.000 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:45:38.063 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.133 seconds (JVM running for 1799.037)
+2019-05-30 11:45:49.886 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:45:52.985 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:45:54.506 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:45:56.443 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:45:57.099 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:46:13.746 [http-nio-80-exec-8] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:46:34.155 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:47:36.745 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:55:08.657 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 11:57:28.049 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12912 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 11:57:28.049 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 11:57:29.031 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.039 seconds (JVM running for 2510.005)
+2019-05-30 11:57:31.381 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:03:34.719 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:03:36.791 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:19.538 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:22.626 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:57.479 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:58.431 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:58.679 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:58.890 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:04:59.105 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:02.263 [http-nio-80-exec-8] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:03.363 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:21.407 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:21.967 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:22.150 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:22.330 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:22.513 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 12:05:22.698 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 13:51:57.907 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 14000 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 13:51:57.912 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 13:52:01.203 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 3.891 seconds (JVM running for 5.698)
+2019-05-30 13:52:23.634 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 14:30:56.080 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 14000 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:30:56.080 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:34:02.904 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12916 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:34:02.909 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:34:07.267 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.027 seconds (JVM running for 7.131)
+2019-05-30 14:35:54.421 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:35:54.426 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:35:58.305 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.979 seconds (JVM running for 6.741)
+2019-05-30 14:37:04.829 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:37:04.830 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:37:06.232 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.481 seconds (JVM running for 74.669)
+2019-05-30 14:40:49.869 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:40:49.869 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:40:51.173 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.378 seconds (JVM running for 299.61)
+2019-05-30 14:42:33.427 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:42:33.428 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:42:34.968 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.614 seconds (JVM running for 403.404)
+2019-05-30 14:44:38.641 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:44:38.642 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:44:39.771 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.196 seconds (JVM running for 528.208)
+2019-05-30 14:45:34.482 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:45:34.482 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:45:35.546 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.127 seconds (JVM running for 583.983)
+2019-05-30 14:45:47.826 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:45:47.826 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:45:48.877 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.116 seconds (JVM running for 597.314)
+2019-05-30 14:50:38.088 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12164 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:50:38.088 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:50:39.328 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.306 seconds (JVM running for 887.765)
+2019-05-30 14:52:18.528 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 7692 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:52:18.533 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:52:22.408 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.362 seconds (JVM running for 6.455)
+2019-05-30 14:53:04.171 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4576 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:53:04.176 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:53:08.558 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.961 seconds (JVM running for 6.782)
+2019-05-30 14:55:20.689 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4576 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:55:20.691 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:55:22.020 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.406 seconds (JVM running for 140.245)
+2019-05-30 14:59:56.100 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4576 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 14:59:56.101 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 14:59:57.304 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.263 seconds (JVM running for 415.529)
+2019-05-30 15:01:48.466 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:04:18.160 [http-nio-80-exec-9] INFO  com.xu.xu7x.filter.WriterFilter - user:null,password:null
+2019-05-30 15:04:21.157 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:04:21.773 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:04:21.985 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:04:22.188 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:04:22.372 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:04:41.547 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:10:16.324 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4576 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:10:16.325 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:10:17.507 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.25 seconds (JVM running for 1035.732)
+2019-05-30 15:10:32.804 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:10:34.576 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:10:35.154 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:10:35.656 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:10:45.459 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9224 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:10:45.464 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:10:49.554 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.661 seconds (JVM running for 6.48)
+2019-05-30 15:11:07.745 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9224 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:11:07.745 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:11:09.090 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.409 seconds (JVM running for 26.018)
+2019-05-30 15:11:39.717 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 6076 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:11:39.722 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:11:43.835 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.653 seconds (JVM running for 6.727)
+2019-05-30 15:11:47.948 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:12:55.227 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:12:56.156 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:12:56.956 [http-nio-80-exec-8] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:12:59.824 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:13:03.689 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:14:03.877 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 13956 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:14:03.882 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:14:07.961 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.568 seconds (JVM running for 6.563)
+2019-05-30 15:14:10.013 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:14:13.024 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:14:20.222 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:14:20.864 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:16:21.593 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 11560 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:16:21.603 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:16:25.676 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.683 seconds (JVM running for 6.691)
+2019-05-30 15:16:28.650 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:16:31.200 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:16:54.815 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 13784 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:16:54.820 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:16:58.798 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.525 seconds (JVM running for 6.561)
+2019-05-30 15:17:05.059 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:17:07.617 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:17:08.559 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:17:10.320 [http-nio-80-exec-8] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-05-30 15:18:05.605 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 13784 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-05-30 15:18:05.605 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-05-30 15:18:07.240 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.697 seconds (JVM running for 75.003)

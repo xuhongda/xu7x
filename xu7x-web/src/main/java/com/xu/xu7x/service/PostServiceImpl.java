@@ -1,5 +1,6 @@
 package com.xu.xu7x.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xu.xu7x.mapper.Xu7xContentMapper;
 import com.xu.xu7x.util.ParseUtil;
 import lombok.Data;
@@ -33,6 +34,9 @@ public class PostServiceImpl implements PostService {
     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
 
+    private ObjectMapper objectMapper = new ObjectMapper();
+
+
     @Autowired
     private Xu7xContentMapper contentMapper;
 
@@ -47,9 +51,9 @@ public class PostServiceImpl implements PostService {
         //获取绝对滤镜
         String realPath = request.getSession().getServletContext().getRealPath("/");
         File file = new File(realPath + format + "-" + originalFilename);
-        f.transferTo(file);
-        InputStream inputStream = f.getInputStream();
 
+        InputStream inputStream = f.getInputStream();
+        f.transferTo(file);
         InputStreamReader streamReader = new InputStreamReader(inputStream, Charset.forName("utf-8"));
 
         BufferedReader bufferedReader = new BufferedReader(streamReader);
@@ -62,6 +66,9 @@ public class PostServiceImpl implements PostService {
         }
         log.info("stringBuffer = {}", stringBuffer);
         List<Xu7xContent> xu7xContents = parseUtil.pase(stringBuffer);
+        String s = objectMapper.writeValueAsString(xu7xContents);
+        objectMapper.writeValue(new File(format + "-" + originalFilename+".json"),xu7xContents);
+        log.info("s = {}",s);
         contentMapper.insertList(xu7xContents);
         return true;
     }

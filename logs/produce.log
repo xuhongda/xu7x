@@ -1,0 +1,36 @@
+2019-06-20 09:15:44.373 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4020 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:15:44.381 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:15:49.170 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.32 seconds (JVM running for 7.554)
+2019-06-20 09:18:24.673 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 7564 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:18:24.673 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:18:29.156 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.139 seconds (JVM running for 6.983)
+2019-06-20 09:19:26.107 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 7564 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:19:26.107 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:19:27.387 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.374 seconds (JVM running for 65.209)
+2019-06-20 09:20:00.449 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 6120 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:20:00.504 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:20:04.794 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.127 seconds (JVM running for 7.165)
+2019-06-20 09:20:33.620 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 6308 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:20:33.636 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:21:15.107 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 11828 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:21:15.107 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:21:18.778 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.171 seconds (JVM running for 6.029)
+2019-06-20 09:23:13.749 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4748 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:23:13.749 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:23:17.467 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.218 seconds (JVM running for 6.055)
+2019-06-20 09:39:03.688 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4748 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 09:39:03.688 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 09:39:05.167 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.572 seconds (JVM running for 953.765)
+2019-06-20 10:22:22.555 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 4748 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 10:22:22.555 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 10:22:24.352 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.891 seconds (JVM running for 3552.937)
+2019-06-20 10:26:32.191 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 8456 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 10:26:32.191 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 10:26:36.221 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.577 seconds (JVM running for 6.426)
+2019-06-20 10:28:01.992 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 8456 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 10:28:01.992 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 10:28:03.211 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.265 seconds (JVM running for 93.416)
+2019-06-20 10:29:11.932 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 6556 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x)
+2019-06-20 10:29:11.936 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-20 10:29:15.428 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 4.04 seconds (JVM running for 6.391)
+2019-06-20 10:31:22.347 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1

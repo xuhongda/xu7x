@@ -1,0 +1,326 @@
+2019-06-21 09:23:12.897 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9968 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 09:23:12.910 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 09:23:19.080 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 6.962 seconds (JVM running for 10.664)
+2019-06-21 09:23:37.849 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 09:24:10.131 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 09:24:10.135 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = #标题#
+2019-06-21 09:24:10.135 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = @作者@
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = ##段落##
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = #故乡的秋#
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = ##我已经离开故乡好几年##
+2019-06-21 09:24:10.136 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #标题#@作者@##段落###故乡的秋#@xuhongda@##我已经离开故乡好几年##
+2019-06-21 09:24:11.240 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 09:25:48.687 [http-nio-80-exec-8] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 09:26:27.954 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:03:06.586 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 2972 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:03:06.596 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:03:12.395 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 6.393 seconds (JVM running for 8.431)
+2019-06-21 10:03:24.328 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 1636 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:03:24.333 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:03:29.487 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.75 seconds (JVM running for 7.788)
+2019-06-21 10:03:45.696 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:09:31.195 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 1636 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:09:31.195 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:09:33.031 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.906 seconds (JVM running for 371.333)
+2019-06-21 10:09:40.284 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:09:50.222 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:12:37.685 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 1636 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:12:37.686 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:12:49.338 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 5388 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:12:49.343 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:12:54.682 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.959 seconds (JVM running for 8.132)
+2019-06-21 10:13:09.430 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:16:38.049 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 13240 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:16:38.054 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:16:42.895 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.384 seconds (JVM running for 7.292)
+2019-06-21 10:16:57.402 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:17:53.589 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:18:39.016 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = #标题#
+2019-06-21 10:18:39.017 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = @作者@
+2019-06-21 10:18:39.017 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = ##段落##
+2019-06-21 10:18:39.017 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:18:39.017 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:18:39.017 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = #故乡的秋#
+2019-06-21 10:18:39.018 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:18:39.022 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = ##我已经离开故乡好几年##
+2019-06-21 10:18:39.023 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #标题#@作者@##段落###故乡的秋#@xuhongda@##我已经离开故乡好几年##
+2019-06-21 10:18:47.958 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12436 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:18:47.963 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:18:52.851 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.412 seconds (JVM running for 7.365)
+2019-06-21 10:19:06.015 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:20:01.796 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:21:05.999 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #标题#
+2019-06-21 10:21:09.092 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @作者@
+2019-06-21 10:21:09.092 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = ##段落##
+2019-06-21 10:21:09.092 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:21:09.092 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:21:09.093 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #故乡的秋#
+2019-06-21 10:21:09.093 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:21:09.093 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = ##我已经离开故乡好几年##
+2019-06-21 10:21:09.093 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #标题#@作者@##段落###故乡的秋#@xuhongda@##我已经离开故乡好几年##
+2019-06-21 10:23:35.527 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:24:02.466 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:24:02.467 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:24:07.550 [http-nio-80-exec-6] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:24:32.248 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12436 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:24:32.248 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:25:45.029 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 11172 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:25:45.034 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:25:50.144 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.955 seconds (JVM running for 8.403)
+2019-06-21 10:25:55.016 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:25:58.744 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:25:58.745 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:25:58.746 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:25:58.746 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:27:21.148 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 1568 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:27:21.153 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:27:26.111 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.552 seconds (JVM running for 8.2)
+2019-06-21 10:28:33.416 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 8976 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:28:33.421 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:28:38.337 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.461 seconds (JVM running for 7.388)
+2019-06-21 10:28:46.787 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:28:50.298 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:28:50.299 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:28:50.299 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:28:50.299 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:28:50.299 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:28:50.299 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:28:50.299 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:28:50.300 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:28:50.300 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:28:50.300 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:28:50.300 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:30:12.341 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 7868 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:30:12.350 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:30:18.214 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 6.686 seconds (JVM running for 9.195)
+2019-06-21 10:30:22.599 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:30:22.603 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:30:22.604 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:31:31.576 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 2336 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:31:31.581 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:31:36.463 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.412 seconds (JVM running for 7.363)
+2019-06-21 10:31:51.633 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:31:51.639 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:31:51.639 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:31:51.639 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:31:51.639 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:31:51.640 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:33:02.934 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 12660 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:33:02.939 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:33:07.863 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.447 seconds (JVM running for 7.397)
+2019-06-21 10:33:13.709 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:33:13.714 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:33:13.714 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:33:13.714 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:33:13.714 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:33:13.714 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:33:13.714 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:33:13.715 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:33:13.715 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:33:13.715 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:33:13.715 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:33:13.715 [http-nio-80-exec-1] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:34:10.365 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:34:10.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:10.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:10.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:10.376 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:34:26.270 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:34:37.894 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 10:34:37.897 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 10:34:37.898 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:37.898 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 10:34:37.898 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 10:34:47.075 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:40:15.677 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:40:35.929 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:44:51.852 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 5028 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:44:51.857 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:44:57.803 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 6.589 seconds (JVM running for 8.515)
+2019-06-21 10:45:05.553 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:45:08.012 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:51:14.302 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 5028 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 10:51:14.303 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 10:51:16.278 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 2.095 seconds (JVM running for 386.991)
+2019-06-21 10:51:17.093 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:53:24.887 [http-nio-80-exec-9] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:54:27.592 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:55:36.136 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 10:56:45.791 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:22:13.727 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9900 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:22:13.732 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:22:18.906 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.704 seconds (JVM running for 7.743)
+2019-06-21 11:22:34.706 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:22:34.712 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:22:42.636 [http-nio-80-exec-3] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":11,"content":"str"},{"id":null,"indexId":11,"content":"str"},{"id":null,"indexId":11,"content":"str"},{"id":null,"indexId":11,"content":"str"}]
+2019-06-21 11:23:23.615 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9900 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:23:23.616 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:23:25.511 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 2.022 seconds (JVM running for 74.349)
+2019-06-21 11:23:29.541 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:23:32.577 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:23:32.582 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:23:32.583 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:23:37.115 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - xu7xContents = [pojo.Xu7xContent@54b0b2c7, pojo.Xu7xContent@3b56b6e6, pojo.Xu7xContent@7fa039e3, pojo.Xu7xContent@1a610be1]
+2019-06-21 11:25:26.721 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9900 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:25:26.722 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:25:40.975 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 9900 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:25:40.975 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:25:42.810 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 1.899 seconds (JVM running for 211.648)
+2019-06-21 11:25:44.766 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:25:51.888 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:25:51.892 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:25:51.892 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:25:51.892 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:25:51.892 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:25:51.892 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:25:51.892 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:25:51.893 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:25:51.893 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:25:51.893 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:25:51.893 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:25:51.893 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:25:57.736 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":13,"content":"str"},{"id":null,"indexId":13,"content":"str"},{"id":null,"indexId":13,"content":"str"},{"id":null,"indexId":13,"content":"str"}]
+2019-06-21 11:26:00.848 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - xu7xContents = [{"id":null,"indexId":13,"content":"str"},{"id":null,"indexId":13,"content":"str"},{"id":null,"indexId":13,"content":"str"},{"id":null,"indexId":13,"content":"str"}]
+2019-06-21 11:27:10.796 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:28:36.321 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:28:53.701 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:28:53.703 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:28:53.704 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:28:57.013 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":14,"content":"str"},{"id":null,"indexId":14,"content":"str"},{"id":null,"indexId":14,"content":"str"},{"id":null,"indexId":14,"content":"str"}]
+2019-06-21 11:28:57.014 [http-nio-80-exec-5] INFO  com.xu.xu7x.service.PostServiceImpl - xu7xContents = [{"id":null,"indexId":14,"content":"str"},{"id":null,"indexId":14,"content":"str"},{"id":null,"indexId":14,"content":"str"},{"id":null,"indexId":14,"content":"str"}]
+2019-06-21 11:28:59.978 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:30:01.159 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 10756 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:30:01.164 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:30:06.048 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.521 seconds (JVM running for 7.652)
+2019-06-21 11:30:15.494 [http-nio-80-exec-10] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:30:15.500 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:30:15.500 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:30:15.500 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:30:15.500 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:30:15.500 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:30:15.501 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:30:15.501 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:30:15.501 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:30:15.501 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:30:16.598 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":15,"content":"str"},{"id":null,"indexId":15,"content":"str"},{"id":null,"indexId":15,"content":"str"},{"id":null,"indexId":15,"content":"str"}]
+2019-06-21 11:30:16.598 [http-nio-80-exec-10] INFO  com.xu.xu7x.service.PostServiceImpl - xu7xContents = [{"id":null,"indexId":15,"content":"str"},{"id":null,"indexId":15,"content":"str"},{"id":null,"indexId":15,"content":"str"},{"id":null,"indexId":15,"content":"str"}]
+2019-06-21 11:30:18.022 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:30:27.680 [http-nio-80-exec-7] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:30:27.682 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:30:27.765 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":16,"content":"str"},{"id":null,"indexId":16,"content":"str"},{"id":null,"indexId":16,"content":"str"},{"id":null,"indexId":16,"content":"str"}]
+2019-06-21 11:30:27.765 [http-nio-80-exec-7] INFO  com.xu.xu7x.service.PostServiceImpl - xu7xContents = [{"id":null,"indexId":16,"content":"str"},{"id":null,"indexId":16,"content":"str"},{"id":null,"indexId":16,"content":"str"},{"id":null,"indexId":16,"content":"str"}]
+2019-06-21 11:30:29.057 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:30:57.390 [http-nio-80-exec-6] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:31:05.258 [http-nio-80-exec-3] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:31:12.707 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:33:11.726 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 6652 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:33:11.732 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:33:16.780 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 5.612 seconds (JVM running for 7.589)
+2019-06-21 11:33:40.952 [http-nio-80-exec-4] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:33:40.957 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:33:40.957 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:33:40.957 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:33:40.957 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:33:40.957 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:33:40.958 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:33:40.958 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:33:40.958 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:33:40.958 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:33:41.006 [http-nio-80-exec-4] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":17,"content":"str"},{"id":null,"indexId":17,"content":"str"},{"id":null,"indexId":17,"content":"str"},{"id":null,"indexId":17,"content":"str"}]
+2019-06-21 11:33:42.314 [http-nio-80-exec-5] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
+2019-06-21 11:34:20.175 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Starting Xu7xWebApplication on 29PF5V6RCXNKKYB with PID 10184 (D:\xucode\my\xu7x\xu7x-web\target\classes started by Administrator in D:\xucode\my\xu7x\xu7x-web)
+2019-06-21 11:34:20.189 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - The following profiles are active: linux
+2019-06-21 11:34:25.664 [restartedMain] INFO  com.xu.xu7x.Xu7xWebApplication - Started Xu7xWebApplication in 6.181 seconds (JVM running for 8.216)
+2019-06-21 11:34:43.369 [http-nio-80-exec-2] INFO  c.xu.xu7x.controller.PostController - user = xuhongda
+2019-06-21 11:34:43.374 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = #atum#
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = @xuhongda@
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = first
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = second
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = third
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - text = 
+2019-06-21 11:34:43.375 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - stringBuffer = #atum#@xuhongda@firstsecondthird
+2019-06-21 11:34:44.503 [http-nio-80-exec-2] INFO  com.xu.xu7x.service.PostServiceImpl - s = [{"id":null,"indexId":18,"content":"str"},{"id":null,"indexId":18,"content":"str"},{"id":null,"indexId":18,"content":"str"},{"id":null,"indexId":18,"content":"str"}]
+2019-06-21 11:34:46.297 [http-nio-80-exec-1] INFO  c.xu.xu7x.controller.IndexController - remoteHost = 127.0.0.1
