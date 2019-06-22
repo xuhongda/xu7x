@@ -13,30 +13,39 @@
     <title>xu7x</title>
 </head>
 <script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css" crossorigin="anonymous">
 <body>
 
+<div class="myTable">
+    <table class="table table-hover" style="text-align:center" id="roleTable">
+        <thead>
+        <tr>
 
-<table class="table  table-bordered" id="roleTable">
-    <thead>
-    <tr>
+        </tr>
+        </thead>
 
-    </tr>
-    </thead>
+        <tbody>
+        <tr>
+          <%--  <td>序号</td>--%>
+            <td>文章</td>
+            <td>发布日期</td>
+        </tr>
+        </tbody>
 
-    <tbody>
+        <tfoot>
+        <tr>
+            <td colspan="6" align="center">
+                <ul class="pagination">
+                    <%--页码--%>
+                </ul>
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
 
-    </tbody>
-
-    <tfoot>
-    <tr>
-        <td colspan="6" align="center">
-            <ul class="pagination">
-                <%--页码--%>
-            </ul>
-        </td>
-    </tr>
-    </tfoot>
-</table>
 
 </body>
 
@@ -56,10 +65,8 @@
             var table = $("#roleTable tbody");
             $.each(data, function (index, value) {
                 console.log("value == " + value);
-
-
                 var tr = $("<tr></tr>"); //创建这个tr对象
-                var x = tr.append("<td id ="+value.id+">" + value.id + "</td>").append("<td indexId="+value.id+" id='name'>" + value.name + "</td>").append("<td>" + formatDate(value.createTime) + "</td>");
+                var x = tr.append("<td indexId="+value.id+" id='name'>" + value.name + "</td>").append("<td>" + formatDate(value.createTime) + "</td>");
                 x.appendTo(table)
             });
         }

@@ -9,7 +9,9 @@ import pojo.Xu7xContent;
 import pojo.Xu7xContentExample;
 import pojo.Xu7xIndex;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 /**
  * @author xuhongda on 2019/6/20
@@ -31,7 +33,9 @@ public class ViewServiceImpl implements ViewService {
 
     @Override
     public List<Xu7xIndex> getIndexs() {
-        return indexMapper.selectByExample(null);
+        List<Xu7xIndex> xu7xIndices = indexMapper.selectByExample(null);
+        xu7xIndices.sort(Comparator.comparing(Xu7xIndex::getId).reversed());
+        return xu7xIndices;
     }
 
     @Override
