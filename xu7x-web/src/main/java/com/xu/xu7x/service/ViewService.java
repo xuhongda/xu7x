@@ -1,5 +1,7 @@
 package com.xu.xu7x.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import pojo.Detail;
 import pojo.Xu7xContent;
 import pojo.Xu7xIndex;
 
@@ -18,11 +20,11 @@ public interface ViewService {
     List<Xu7xIndex> getIndexs();
 
     /**
-     * 获取文章段落
+     * 获取文章详情
      * @param id
      * @return
      */
-    List<Xu7xContent> getContent(Integer id);
+    Detail getContent(Integer id) throws JsonProcessingException;
 }
 
 

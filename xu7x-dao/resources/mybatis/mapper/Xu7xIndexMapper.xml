@@ -208,4 +208,12 @@
       author = #{author,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+
+  <!--    List<Xu7xIndex> selectAll();
+-->
+  <select id="selectAll" resultMap="BaseResultMap">
+    select  <include refid="Base_Column_List" />
+    from xu7x_index order by id desc
+  </select>
 </mapper>
