@@ -1,5 +1,6 @@
 package com.xu.xu7x.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.xu.xu7x.service.ViewServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import pojo.Detail;
 import pojo.Xu7xContent;
 import pojo.Xu7xIndex;
 
@@ -50,9 +52,9 @@ public class IndexController {
 
     @ResponseBody
     @GetMapping("/cc")
-    public List<Xu7xContent> content(Integer id){
-        List<Xu7xContent> contents = viewService.getContent(id);
-        return contents;
+    public Detail content(Integer id) throws JsonProcessingException {
+        Detail detail = viewService.getContent(id);
+        return detail;
     }
 
     /**

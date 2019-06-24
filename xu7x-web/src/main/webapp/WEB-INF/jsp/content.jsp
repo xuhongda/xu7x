@@ -11,8 +11,8 @@
     <title>Title</title>
     <script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
 </head>
-<body>
-
+<body id="body">
+    <h1 id="title"></h1>
 </body>
 <script>
     $(function () {
@@ -32,7 +32,11 @@
 
         function show(data) {
             var body = $("body");
-            $.each(data,function (index,value) {
+            let xu7xContents = data.xu7xContents;
+            let name = data.xu7xIndex.name;
+            let $title = $("#title");
+            $title.append(name);
+            $.each(xu7xContents,function (index,value) {
                 console.log("content == "+value.content);
                 var p =$('<p></p>');
                 p.append("<p>"+value.content+"</p>").appendTo(body)
