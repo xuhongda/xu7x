@@ -48,8 +48,8 @@
                             想过这一天......
                             你不认识我，
                             我不认识你，
-                            在熙熙挠挠的街上，
-                            在宁静清凉的田野，
+                            在街上，
+                            在田野，
                             记忆模糊起来，
                             想象清晰开来，
                             我不认识你，你不认识我。 2019-6-24
@@ -79,6 +79,7 @@
     <%--logo--%>
     <div id="logo" style="text-align: center">
         <img src="/static/about_us.png" alt="logo"/>
+        <p style="color: #60a3bc">xuhongda org</p>
     </div>
 
 </div>
