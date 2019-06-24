@@ -19,15 +19,18 @@
 <link rel="stylesheet" href="/static/layui/css/layui.css" media="all">
 <body>
 <div style="height: 15%">
-
+    <br>
+    <div style="margin-left: 15%">
+        <img src="/static/news_blue.png" alt="inc"/> <span style="font-size: large; color: #60a3bc">南方青年杂志</span>
+    </div>
 </div>
 <div>
     <table class="table table-hover" style="text-align:center" id="roleTable">
         <thead>
         <tr>
             <%--  <td>序号</td>--%>
-            <td style="font-size: x-large;color: #e67e22">文章</td>
-            <td style="font-size: x-large;color: #e67e22">发布日期</td>
+            <td style="font-size: x-large;color: #60a3bc">文章</td>
+            <td style="font-size: x-large;color: #60a3bc">发布日期</td>
         </tr>
         </thead>
 
@@ -58,6 +61,26 @@
         </tr>
         </tfoot>
     </table>
+
+
+
+    <form style="text-align: center">
+        <div>
+            <button type="button" id="join-us" class="btn btn-primary">加入我们</button>
+        </div>
+        <br>
+        <ul id="more" style="display: none">
+            <button id="pp" class="btn btn-info">投稿</button>
+            <button id="dd" type="button" class="btn btn-info">成为开发者</button>
+            <button id="aa" class="btn btn-info">提出建议</button>
+        </ul>
+    </form>
+    
+    <%--logo--%>
+    <div id="logo" style="text-align: center">
+        <img src="/static/about_us.png" alt="logo"/>
+    </div>
+
 </div>
 
 
@@ -70,7 +93,6 @@
 
 <script src="/static/layui/layui.js" charset="utf-8"></script>
 <script>
-
 
     $(function () {
 
@@ -115,7 +137,7 @@
             $.each(data, function (index, value) {
                 console.log("value == " + value);
                 var tr = $("<tr></tr>"); //创建这个tr对象
-                var x = tr.append("<td indexId=" + value.id + " id='name'> <a style='font-size: large;color: #1b6d85'>" + value.name + "</a></td>").append("<td>" + formatDate(value.createTime) + "</td>");
+                var x = tr.append("<td indexId=" + value.id + " id='name'> <a style='font-size: large;color: #38ada9'>" + value.name + "</a></td>").append("<td>" + formatDate(value.createTime) + "</td>");
                 x.appendTo(table)
             });
         }
@@ -130,7 +152,7 @@
                 laypage.render({
                     elem: 'demo7'
                     , count: total //总条数
-                    , theme: '#FF5722'
+                    , theme: '#60a3bc'
                     ,limit: 2
                     ,limits: [7, 15, 30] //每页条数
                     , layout: ['count', 'prev', 'page', 'next', 'limit', 'refresh', 'skip']
@@ -160,6 +182,18 @@
         function getContent(id) {
             window.location.href = "content" + "?id=" + id;
         }
+
+
+        /*more*/
+
+        $("#join-us").click(function () {
+           $("#more").show(1000);
+        });
+
+        /*成为开发者*/
+        $("#dd").click(function () {
+           layer.alert("<a href='https://github.com/xuhongda/xu7x'>点击查看项目源码</a>")
+        });
 
         //js 时间转换 函数
         function formatDate(date) {
