@@ -27,4 +27,10 @@ public interface Xu7xIndexMapper {
     int updateByPrimaryKeySelective(Xu7xIndex record);
 
     int updateByPrimaryKey(Xu7xIndex record);
+
+    /**
+     * 倒序获取全部
+     * @return
+     */
+    List<Xu7xIndex> selectAll();
 }

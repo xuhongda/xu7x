@@ -36,7 +36,7 @@ public class ViewServiceImpl implements ViewService {
 
     @Override
     public List<Xu7xIndex> getIndexs() {
-        List<Xu7xIndex> xu7xIndices = indexMapper.selectByExample(null);
+        List<Xu7xIndex> xu7xIndices = indexMapper.selectAll();
         xu7xIndices.sort(Comparator.comparing(Xu7xIndex::getId).reversed());
         return xu7xIndices;
     }

@@ -1,6 +1,8 @@
 package com.xu.xu7x.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.xu.xu7x.service.ViewServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,11 +38,20 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("page")
+    public String page(HttpServletRequest request){
+        String remoteHost = getRemoteHost(request);
+        log.info("remoteHost = {}",remoteHost);
+        return "page";
+    }
+
     @ResponseBody
     @GetMapping("/indexs")
-    public List<Xu7xIndex> indexs(){
+    public PageInfo<Xu7xIndex> indexs(Integer pageNum,Integer pageSize){
+        PageHelper.startPage(pageNum,pageSize);
         List<Xu7xIndex> indexs = viewService.getIndexs();
-        return indexs;
+        PageInfo<Xu7xIndex> pageInfo = new PageInfo<>(indexs,7);
+        return pageInfo;
     }
 
 
