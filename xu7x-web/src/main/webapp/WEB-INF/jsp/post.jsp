@@ -12,8 +12,12 @@
 </head>
 <script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
 <body>
-<input type="file" name="fileUpload" id="post" accept="text/plain"/>
-<input type="submit"  id="up" value="上传"/>
+<div style="margin-left:auto;margin-right: auto;text-align: center">
+    <br>
+    <input type="file" name="fileUpload" id="post" accept="text/plain"/>
+    <input type="submit"  id="up" value="上传"/>
+</div>
+
 </body>
 <script>
     let $post = $("#post");
