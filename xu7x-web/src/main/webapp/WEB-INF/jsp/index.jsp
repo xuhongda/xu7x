@@ -121,6 +121,9 @@
                 data: {"pageNum": curr, "pageSize": limit},
                 success: function (data) {
                     init(data);
+                },
+                error: function () {
+                  layer.msg("服务出错")
                 }
             });
         }
