@@ -63,7 +63,6 @@
     </table>
 
 
-
     <form style="text-align: center">
         <div>
             <button type="button" id="join-us" class="btn btn-primary">加入我们</button>
@@ -75,7 +74,7 @@
             <button id="aa" class="btn btn-info">提出建议</button>
         </ul>
     </form>
-    
+
     <%--logo--%>
     <div id="logo" style="text-align: center">
         <img src="/static/about_us.png" alt="logo"/>
@@ -154,8 +153,8 @@
                     elem: 'demo7'
                     , count: total //总条数
                     , theme: '#60a3bc'
-                    ,limit: 2
-                    ,limits: [7, 15, 30] //每页条数
+                    , limit: 2
+                    , limits: [7, 15, 30] //每页条数
                     , layout: ['count', 'prev', 'page', 'next', 'limit', 'refresh', 'skip']
                     , jump: function (obj) {
                         console.log(">>>" + obj.curr);
@@ -188,12 +187,12 @@
         /*more*/
 
         $("#join-us").click(function () {
-           $("#more").show(1000);
+            $("#more").show(1000);
         });
 
         /*成为开发者*/
         $("#dd").click(function () {
-           layer.alert("<a href='https://github.com/xuhongda/xu7x'>点击查看项目源码</a>")
+            layer.alert("<a href='https://github.com/xuhongda/xu7x'>点击查看项目源码</a>")
         });
 
         //js 时间转换 函数
