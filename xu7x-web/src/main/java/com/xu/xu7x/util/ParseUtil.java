@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xu.xu7x.mapper.Xu7xContentMapper;
 import com.xu.xu7x.mapper.Xu7xIndexMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 import pojo.Xu7xContent;
