@@ -8,6 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>xu7x-web</artifactId>
+    <packaging>war</packaging>
     <name>xu7x-web</name>
     <description>Demo project for Spring Boot</description>
 
@@ -31,6 +32,7 @@
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>com.xu</groupId>
             <artifactId>xu7x-dao</artifactId>
