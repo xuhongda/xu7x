@@ -12,16 +12,13 @@
 <head>
     <title>xu7x-时光杂志</title>
 </head>
-<script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
-
-<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css" crossorigin="anonymous">
-<link rel="stylesheet" href="/static/layui/css/layui.css" media="all">
+<%--引入--%>
+<%@include file="/WEB-INF/commons/common-js.jsp" %>
 <body>
 <div style="height: 15%">
     <br>
     <div style="margin-left: 15%">
-        <img src="/static/news_blue.png" alt="inc"/> <span style="font-size: large; color: #60a3bc">南方青年杂志</span>
+        <img src="${pageContext.request.contextPath}/static/news_blue.png" alt="inc"/> <span style="font-size: large; color: #60a3bc">南方青年杂志</span>
     </div>
 </div>
 <div>
@@ -77,7 +74,7 @@
 
     <%--logo--%>
     <div id="logo" style="text-align: center">
-        <img src="/static/about_us.png" alt="logo"/>
+        <img src="${pageContext.request.contextPath}/static/about_us.png" alt="logo"/>
         <p style="color: #60a3bc">xuhongda org</p>
     </div>
 
@@ -91,7 +88,7 @@
 
 </script>
 
-<script src="/static/layui/layui.js" charset="utf-8"></script>
+
 <script>
 
     $(function () {
@@ -101,7 +98,7 @@
         function showT(curr, limit) {
             console.log("showT");
             var v = '${pageContext.request.contextPath}';
-            var path = v + "indexs";
+            var path = v + "/indexs";
             $.ajax({
                 url: path,
                 data: {"pageNum": curr, "pageSize": limit},
@@ -115,7 +112,7 @@
         function show(curr, limit) {
             console.log("show");
             var v = '${pageContext.request.contextPath}';
-            var path = v + "indexs";
+            var path = v + "/indexs";
             $.ajax({
                 url: path,
                 data: {"pageNum": curr, "pageSize": limit},

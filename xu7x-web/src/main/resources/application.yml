@@ -8,6 +8,8 @@ server:
   port: 80
   tomcat:
     uri-encoding: UTF-8
+  servlet:
+    context-path: /xx
 spring:
   profiles: linux
   jackson:

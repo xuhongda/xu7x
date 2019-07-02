@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Title</title>
-    <script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/static/jquery-3.2.1.js" type="text/javascript"></script>
 </head>
 <body id="body">
     <h1 id="title"></h1>

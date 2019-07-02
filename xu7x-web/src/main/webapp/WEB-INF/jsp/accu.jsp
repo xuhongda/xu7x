@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <title>登录</title>
 </head>
-<script type="text/javascript" src="/static/jquery-3.2.1.js"></script>
-<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css" crossorigin="anonymous">
+<%--引入--%>
+<%@include file="/WEB-INF/commons/common-js.jsp" %>
 <body>
 
 

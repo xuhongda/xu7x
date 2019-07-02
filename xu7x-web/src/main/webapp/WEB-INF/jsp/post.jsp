@@ -10,7 +10,7 @@
 <head>
     <title>post</title>
 </head>
-<script src="/static/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/static/jquery-3.2.1.js" type="text/javascript"></script>
 <body>
 <div style="margin-left:auto;margin-right: auto;text-align: center">
     <br>
