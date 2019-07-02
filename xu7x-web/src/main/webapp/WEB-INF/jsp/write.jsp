@@ -10,6 +10,8 @@
 <head>
     <title>写作</title>
 </head>
+<%--引入--%>
+<%@include file="/WEB-INF/commons/common-js.jsp" %>
 <body>
 
     <form>
