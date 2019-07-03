@@ -19,7 +19,7 @@
         var id = ' ${requestScope.get("id")}';
         console.log("id == "+id);
         var v = '${pageContext.request.contextPath}';
-        var path = v + "cc";
+        var path = v + "/cc";
         $.ajax({
             url: path,
             data:{"id":id},

@@ -9,7 +9,7 @@ server:
   tomcat:
     uri-encoding: UTF-8
   servlet:
-    context-path: /xx
+    context-path: /xu7x
 spring:
   profiles: linux
   jackson:
