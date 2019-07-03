@@ -1,6 +1,7 @@
 package com.xu.xu7x.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -23,6 +24,10 @@ import java.util.List;
 @Configuration
 @EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
+
+    @Autowired
+    private MyInterceptor myInterceptor;
+
     /**
      * 拦截 url 中带有 /static 的请求 ，映射到 static 目录
      */
@@ -74,6 +79,14 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/test").setViewName("test");
+        registry.addViewController("/girl").setViewName("girl");
+    }
+
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        registry.addInterceptor(myInterceptor).addPathPatterns("/**").excludePathPatterns("/girl");
     }
 
 }

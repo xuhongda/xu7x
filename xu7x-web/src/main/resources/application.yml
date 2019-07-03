@@ -38,6 +38,10 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
 read:
   type: mysql
+com:
+  xu:
+    topic: girl
+
 ---
 # \u5F00\u53D1\u73AF\u5883
 server:

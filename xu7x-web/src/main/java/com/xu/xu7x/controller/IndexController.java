@@ -3,6 +3,7 @@ package com.xu.xu7x.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.xu.xu7x.bean.ButtonType;
 import com.xu.xu7x.service.ViewServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,10 @@ import java.util.List;
 @Controller
 public class IndexController {
 
+
+    @Autowired
+    private ButtonType buttonType;
+
     @Autowired
     private ViewServiceImpl viewService;
 
@@ -35,6 +40,7 @@ public class IndexController {
     public String index(HttpServletRequest request){
         String remoteHost = getRemoteHost(request);
         log.info("remoteHost = {}",remoteHost);
+        log.info("buttonType = {}", buttonType.getTopic());
         return "index";
     }
 
