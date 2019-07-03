@@ -33,17 +33,11 @@ spring:
       force: true
       charset: UTF-8
       enabled: true
-
 mybatis:
   config-location: classpath:mybatis/config/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
-logging:
-  file: /var/log/xu7x.log
- # level:
- #   com.xu.xu7x.mapper = debug
-
-  #path: /var/log
-
+read:
+  type: stream
 ---
 # \u5F00\u53D1\u73AF\u5883
 server:

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@ page  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
 
 <div style="margin-left: auto;margin-right: auto;text-align: center">
     <h2>身份认证</h2>
-<form action="/user/acc" method="post">
+    <form action="${pageContext.request.contextPath}/user/acc" method="post">
     <table style="text-align: center;margin-right: auto;margin-left: auto">
         <tr>
             <td>用户名:</td>

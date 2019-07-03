@@ -49,7 +49,7 @@
             success:function () {
                 console.log("success");
                 alert("上传成功");
-                window.location = "/"
+                window.location = "${pageContext.request.contextPath}/"
             },
             error:function(){
                 console.log("error");

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xu.xu7x.mapper.Xu7xContentMapper;
 import com.xu.xu7x.mapper.Xu7xIndexMapper;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 import pojo.Xu7xContent;
@@ -27,6 +28,10 @@ import java.util.List;
 @Service
 public class ParseUtil {
 
+
+    @Value("${read.type}")
+    private String type;
+
     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
     private final Xu7xIndexMapper indexMapper;
@@ -42,7 +47,7 @@ public class ParseUtil {
 
 
     public  boolean pase(StringBuffer stringBuffer,String originalFilename) throws IOException {
-
+        log.info("type = {}", type);
         String s = stringBuffer.toString();
         String trim = s.trim();
 

@@ -1,6 +1,7 @@
 package com.xu.xu7x.service;
 
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -13,4 +14,6 @@ import java.io.IOException;
 public interface PostService {
 
     boolean getFileToPost(MultipartFile[] files, HttpServletRequest request) throws IOException;
+
+    void fileParse(MultipartFile[] files, HttpServletRequest request) throws IOException;
 }

@@ -2,6 +2,7 @@ package com.xu.xu7x.controller;
 
 import com.xu.xu7x.service.PostServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,7 +29,12 @@ import java.text.SimpleDateFormat;
 @Controller
 public class PostController {
 
-    private SimpleDateFormat format = new SimpleDateFormat("yyyyy-mm-dd  HH:mm:ss");
+    @Value("${read.type}")
+    private String type;
+
+    private final String STREAM = "stream";
+
+    private final String MYSQL = "mysql";
 
 
     private final PostServiceImpl postService;
@@ -65,9 +71,14 @@ public class PostController {
     @ResponseBody
     @PostMapping("post")
     public HttpStatus editor(MultipartFile[] files, MultipartHttpServletRequest request) throws ParseException, IOException, ServletException {
-        String user = request.getParameter("user");
-        log.info("user = {}", user);
-        postService.getFileToPost(files,request);
+
+        if (STREAM.equals(type)) {
+            postService.fileParse(files, request);
+        } else if (MYSQL.equals(type)) {
+            String user = request.getParameter("user");
+            log.info("user = {}", user);
+            postService.getFileToPost(files, request);
+        }
         return HttpStatus.OK;
     }
 

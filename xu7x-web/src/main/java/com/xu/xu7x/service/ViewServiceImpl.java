@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xu.xu7x.mapper.Xu7xContentMapper;
 import com.xu.xu7x.mapper.Xu7xIndexMapper;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import pojo.Detail;
 import pojo.Xu7xContent;
@@ -22,6 +23,9 @@ import java.util.List;
 @Slf4j
 @Service
 public class ViewServiceImpl implements ViewService {
+
+    @Value("${read.type}")
+    private String type;
 
     private ObjectMapper mapper = new ObjectMapper();
 
@@ -43,14 +47,23 @@ public class ViewServiceImpl implements ViewService {
 
     @Override
     public Detail getContent(Integer id) throws JsonProcessingException {
-        Detail detail = new Detail();
-        Xu7xIndex xu7xIndex = indexMapper.selectByPrimaryKey(id);
-        detail.setXu7xIndex(xu7xIndex);
-        Xu7xContentExample contentExample = new Xu7xContentExample();
-        contentExample.createCriteria().andIndexIdEqualTo(id);
-        List<Xu7xContent> xu7xContents = contentMapper.selectByExample(contentExample);
-        detail.setXu7xContents(xu7xContents);
-        log.info("detail  =  {}",mapper.writeValueAsString(detail));
-        return detail;
+
+        String mysql = "mysql";
+        String stream = "stream";
+        if (mysql.equals(type)) {
+            Detail detail = new Detail();
+            Xu7xIndex xu7xIndex = indexMapper.selectByPrimaryKey(id);
+            detail.setXu7xIndex(xu7xIndex);
+            Xu7xContentExample contentExample = new Xu7xContentExample();
+            contentExample.createCriteria().andIndexIdEqualTo(id);
+            List<Xu7xContent> xu7xContents = contentMapper.selectByExample(contentExample);
+            detail.setXu7xContents(xu7xContents);
+            log.info("detail  =  {}", mapper.writeValueAsString(detail));
+            return detail;
+        } else if (stream.equals(type)) {
+
+        }
+
+        return null;
     }
 }
