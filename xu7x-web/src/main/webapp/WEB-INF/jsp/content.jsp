@@ -9,7 +9,8 @@
 <html>
 <head>
     <title>Title</title>
-    <script src="${pageContext.request.contextPath}/static/jquery-3.2.1.js" type="text/javascript"></script>
+    <%--引入--%>
+    <%@include file="/WEB-INF/commons/common-js.jsp" %>
 </head>
 <body id="body">
     <h1 id="title"></h1>
