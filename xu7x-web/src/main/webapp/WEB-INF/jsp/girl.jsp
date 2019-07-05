@@ -22,7 +22,7 @@
 <div class="gl">
     <h2>亲爱的 yan:</h2>
     <p>
-        &nbsp;&nbsp;一个女孩
+        &nbsp;&nbsp和你一起还房贷，这个想法日益占据我的脑海。我七你三这不过分吧😘
     </p>
 </div>
 </body>
