@@ -59,7 +59,7 @@ public class PostServiceImpl implements PostService {
         String format = this.format.format(new Date());
         //获取绝对路径
         String realPath = request.getSession().getServletContext().getRealPath("/");
-        File file = new File(realPath + format + "-" + originalFilename);
+        File file = new File(realPath+"doc"+"\\" + format + "-" +originalFilename);
         InputStream inputStream = f.getInputStream();
         f.transferTo(file);
         return inputStream;
